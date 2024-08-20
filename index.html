@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="styles.css">
+    <title>Piano</title>
+
+</head>
+<body>
+    
+
+        <h1>Carlos Rubin de Celis</h1>
+        <h2>Playable Piano</h2>
+
+
+<!-- container for keyboard -->
+<div class = "flex-container">
+    
+    <!-- divs for each pair or set of black and white keys--> 
+    <div class ="structure"> 
+        <div class ="key-set"> 
+            <button class="key white c">C</button>
+            <button class="key black c_sharp">C#</button>
+        </div>
+
+        <div class ="key-set"> 
+            <button class="key white d">D</button>
+            <button class="key black d_sharp">D#</button>
+        </div>
+
+        <div class ="key-set"> 
+            <button class="key white e">E</button>
+        </div>
+
+        <div class ="key-set"> 
+            <button class="key white f">F</button>
+            <button class="key black f_sharp">F#</button>
+        </div>
+
+        <div class ="key-set"> 
+            <button class="key white g">G</button>
+            <button class="key black g_sharp">G#</button>
+        </div>
+
+        <div class ="key-set"> 
+            <button class="key white a">A</button>
+            <button class="key black a_sharp">A#</button>
+        </div>
+
+            <button class="key white b">B</button>
+            <button class="key white c2">C2</button>
+        
+    </div>
+    
+    <!--I needed to include an extra set of divs
+    with class "key-set" so that I can position the
+    black keys absolutely in relation to the white keys.
+    each white key followed by a black key is part of a 
+    "key-set" div.-->
+</div>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

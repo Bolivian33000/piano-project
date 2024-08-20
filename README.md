@@ -11,4 +11,6 @@ This project is a playable piano project with one octave anyone can play with ju
 
     * cd piano-project.git
 
-  3. Show Preview on your local device and paste the URL in your web browser!
+  3. Open the project in your default web browser:
+
+    * open index.html

@@ -1,18 +1,30 @@
-Playable Piano Project
 # Playable Piano
-This project is a playable piano project with one octave anyone can play with just a click!  
 
-Remade from scratch based on the visual from Daniel Habib's Playable Piano project. This was an exercise for me to apply what I'd learned from the first part of Angela Yu's web development boot camp on Udemy and remake a project based on visuals alone
+A virtual piano containing a full playable octave that users can interact with via mouse clicks.
 
-# Setup and Installation
-  1. Clone the repository:
+This application was rebuilt from scratch based on the visual assets of Daniel Habib's Playable Piano project. It serves as an application of the core frontend concepts that I learned during the first section of Angela Yu's Web Development Bootcamp. My goal was to recreate his app only based on the visuals of Daniel's already-existing app based on the concepts I'd learned 
 
-    * git clone -b main --single-branch https://github.com/Bolivian33000/piano-project.git
+## Setup and Installation
 
-  2. Navigate to the project directory:
+Follow these steps to run the piano locally on your machine:
 
-    * cd piano-project.git
+1. Clone the repository:
+   ```bash
+   git clone -b main --single-branch https://github.com
+   ```
 
-  3. Open the project in your default web browser:
+2. Navigate to the project directory:
+   ```bash
+   cd piano-project
+   ```
 
-    * open index.html
+3. Open the project in your default web browser:
+   ```bash
+   open index.html
+   ```
+   *(Alternatively, just double-click the `index.html` file inside your file explorer).*
+
+## Credits & Inspiration
+
+*   **Visual Design:** [Daniel Habib](https://github.com) (Playable Piano project)
+*   **Course Material:** [Angela Yu](https://udemy.com) (The Complete 2026 Web Development Bootcamp)
